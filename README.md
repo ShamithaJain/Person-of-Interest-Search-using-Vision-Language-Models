@@ -18,26 +18,6 @@ It leverages **Vision-Language Models (VLMs)** such as CLIP/SigLIP to generate e
 
 ---
 
-## 🏗️ Project Structure
-
-```bash
-.
-├── src/
-│   └── person_of_interest/
-│       ├── app.py              # Streamlit application
-│       ├── embeddings.py      # Embedding generation logic
-│       ├── rerank.py          # Re-ranking logic
-│       └── ...
-├── scripts/
-│   └── build_index.py         # Script to build search index
-├── data/                      # Dataset (if applicable)
-├── requirements.txt
-├── pyproject.toml             # (if using uv)
-└── README.md
-```
-
----
-
 ## ⚙️ Setup & Installation
 
 ### 1. Clone the repository
